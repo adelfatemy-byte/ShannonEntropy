@@ -1,0 +1,20 @@
+Package: ShannonEntropy
+Type: Package
+Title: Shannon Entropy Estimation from Frequency Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Adel", "Fatemi",
+      email = "adelfatemy@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides functions to calculate Shannon entropy 
+    from categorical data. The package computes frequency tables,
+    probability distributions, and Shannon entropy with natural 
+    or custom logarithm bases. Handles missing values and follows 
+    the convention 0*log(0)=0.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
